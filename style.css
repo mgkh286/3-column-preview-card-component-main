@@ -1,0 +1,98 @@
+/* 
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+
+/* Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%) */
+.color {
+  font-family: 'Big Shoulders Display', cursive;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsl(31, 77%, 52%), hsl(184, 100%, 22%), hsl(179, 100%, 13%),
+    hsla(0, 0%, 100%, 0.75), hsl(0, 0%, 95%);
+}
+
+/* general styling  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+}
+
+.cards {
+  color: hsla(0, 0%, 100%, 0.75);
+  max-width: 375px;
+}
+
+.card {
+  padding: 1.2rem;
+}
+
+.card img {
+  width: 40px;
+}
+
+.card h1 {
+  font-family: 'Big Shoulders Display', 'cursive';
+  font-size: 1rem;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  padding: 0.7rem 0;
+}
+
+.card p {
+  width: 230px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 0.7rem;
+  /* padding: 0 6rem 0 0; */
+  text-align: left;
+}
+
+/* button style  */
+
+.card button {
+  border: transparent;
+  margin-top: 0.7rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 0.6rem;
+}
+
+/* sedan style  */
+.orange-sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 5px 5px 0 0;
+}
+
+.orange-sedan .btn {
+  color: hsl(31, 77%, 52%);
+}
+
+/* suvs styling  */
+.cyan-suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.cyan-suvs .btn {
+  color: hsl(184, 100%, 22%);
+}
+
+/* luxury styling */
+.dark-luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 5px 5px;
+}
