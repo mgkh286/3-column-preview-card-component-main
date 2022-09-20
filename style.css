@@ -7,8 +7,6 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); } */
 
-/* Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
-Very light gray (background, headings, buttons): hsl(0, 0%, 95%) */
 .color {
   font-family: 'Big Shoulders Display', cursive;
   font-family: 'Lexend Deca', sans-serif;
@@ -74,6 +72,12 @@ body {
   padding: 0.5rem 1.5rem;
   border-radius: 2rem;
   font-size: 0.6rem;
+}
+
+.card button:hover {
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  background-color: transparent;
 }
 
 /* sedan style  */
